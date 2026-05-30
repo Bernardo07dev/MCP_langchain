@@ -25,7 +25,6 @@ O agente recebe perguntas matemáticas em linguagem natural, decide quais ferram
 
 <img src="MCP_Chat.png" hspace="20" vspace="10" align="right" gap="5" width="300"/>
 
-<div align="left">
 O fluxo funciona assim:
 
 1. **Input** — lê a mensagem do usuário no terminal
@@ -41,7 +40,6 @@ O fluxo funciona assim:
 ## 📁 Estrutura
 
 ```
-.
 ├── mcp_server.py      # Servidor FastMCP com as ferramentas matemáticas
 ├── graph.py           # Grafo LangGraph + loop principal async
 ├── llm.py             # Inicialização do modelo e cliente MCP
@@ -49,8 +47,6 @@ O fluxo funciona assim:
 ├── main.py            # Entry point (legado)
 └── pyproject.toml
 ```
-
-</div>
 
 ---
 
